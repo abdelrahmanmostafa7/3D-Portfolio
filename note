@@ -1,0 +1,5 @@
+to convert 3D model to jsx
+
+npm i -g gltf-pipline
+gltf-pipeline -i scene.gltf -o model.gltf -d 
+npx gltfjsx model.gltf --transform
